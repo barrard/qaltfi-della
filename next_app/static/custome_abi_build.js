@@ -1,0 +1,1 @@
+../../../../ethereum/della_security_token/custome_abi_build.js

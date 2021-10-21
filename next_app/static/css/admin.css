@@ -1,0 +1,135 @@
+
+.inline{
+  display: inline;
+}
+
+.flex{
+  display: flex; 
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 10%;
+  max-height: 10%
+  /* left: 0; */
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  /* top: 20%; */
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+  /* position: absolute; */
+  /* top: 20%; */
+  /* bottom: 20%; */
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 20%;
+  max-height: 20%
+  /* left: 0; */
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.data_divider {
+  background: linear-gradient(48deg, rgba(199, 221, 238, 1) 0%, rgba(164, 188, 201, 1) 100%);
+}
+
+.max-height-70 {
+  max-height: 70%;
+}
+
+
+
+.main_list_of_data {
+  /* position: absolute; */
+  /* top: 14%; */
+  overflow-y: scroll;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.start {
+  left: 0px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.end {
+  right: 0px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.item_gradient {
+  background: transparent;
+  /* background: rgb(225, 255, 255);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(225, 255, 255, 1) 0%, rgba(225, 255, 255, 1) 7%, rgba(225, 255, 255, 1) 12%, rgba(253, 255, 255, 1) 12%, rgba(230, 248, 253, 1) 30%, rgba(200, 238, 251, 1) 54%, rgba(190, 228, 248, 1) 75%, rgba(177, 216, 245, 1) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(225, 255, 255, 1) 0%, rgba(225, 255, 255, 1) 7%, rgba(225, 255, 255, 1) 12%, rgba(253, 255, 255, 1) 12%, rgba(230, 248, 253, 1) 30%, rgba(200, 238, 251, 1) 54%, rgba(190, 228, 248, 1) 75%, rgba(177, 216, 245, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(225, 255, 255, 1) 0%, rgba(225, 255, 255, 1) 7%, rgba(225, 255, 255, 1) 12%, rgba(253, 255, 255, 1) 12%, rgba(230, 248, 253, 1) 30%, rgba(200, 238, 251, 1) 54%, rgba(190, 228, 248, 1) 75%, rgba(177, 216, 245, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5', GradientType=1); */
+}
+
+select {
+  max-width: 100%;
+}
+
+body { 
+  overflow-x: hidden;
+}
+
+
+#tx_spinner_progress_bar_container {
+  /* float: right; */
+  display: none;
+  position: fixed;
+  /* display: block; */
+  top: 12%;
+  width: 100%;
+  z-index: 100;
+}
+
+#tx_spinner_progress_bar {
+  transition: width 1s linear;
+  /* left: 75%; */
+  /* height: 100px; */
+  width: 100%;
+  /* display: none; */
+}

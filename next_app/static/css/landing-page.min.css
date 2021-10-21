@@ -1,0 +1,332 @@
+.social-button {
+  background-position: 25px 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 3px;
+  margin: 10px auto;
+  outline: rgb(255, 255, 255) none 0px;
+  padding-left: 20%;
+  transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.nav_bar_logo{
+  width:100px;
+}
+
+#facebook-connect {
+  background: rgb(255, 255, 255) url('https://eswarasai.com/projects/social-login/img/facebook.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+  border: 1px solid rgb(60, 90, 154);
+}
+
+#facebook-connect:hover {
+  border-color: rgb(60, 90, 154);
+  background: rgb(60, 90, 154) url('https://eswarasai.com/projects/social-login/img/facebook-white.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+}
+
+#facebook-connect span {
+  box-sizing: border-box;
+  color: rgb(60, 90, 154);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(255, 255, 255);
+  outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#facebook-connect:hover span {
+  color: #FFF;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#google-connect {
+  background: rgb(255, 255, 255) url('https://eswarasai.com/projects/social-login/img/google-plus.png') no-repeat scroll 2px 0px / 50px 50px padding-box border-box;
+  border: 1px solid rgb(220, 74, 61);
+}
+
+#google-connect:hover {
+  border-color: rgb(220, 74, 61);
+  background: rgb(220, 74, 61) url('https://eswarasai.com/projects/social-login/img/google-plus-white.png') no-repeat scroll 2px 0px / 50px 50px padding-box border-box;
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+}
+
+#google-connect span {
+  box-sizing: border-box;
+  color: rgb(220, 74, 61);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(220, 74, 61);
+  outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#google-connect:hover span {
+  color: #FFF;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#twitter-connect {
+  background: rgb(255, 255, 255) url('https://eswarasai.com/projects/social-login/img/twitter.png') no-repeat scroll 5px 1px / 45px 45px padding-box border-box;
+  border: 1px solid rgb(85, 172, 238);
+}
+
+#twitter-connect:hover {
+  border-color: rgb(85, 172, 238);
+  background: rgb(85, 172, 238) url('https://eswarasai.com/projects/social-login/img/twitter-white.png') no-repeat scroll 5px 1px / 45px 45px padding-box border-box;
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+}
+
+#twitter-connect span {
+  box-sizing: border-box;
+  color: rgb(85, 172, 238);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(220, 74, 61);
+  outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#twitter-connect:hover span {
+  color: #FFF;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#linkedin-connect {
+  background: rgb(255, 255, 255) url('https://eswarasai.com/projects/social-login/img/linkedin.svg') no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+  border: 1px solid rgb(0, 119, 181);
+}
+
+#linkedin-connect:hover {
+  border-color: rgb(0, 119, 181);
+  background: rgb(0, 119, 181) url('https://eswarasai.com/projects/social-login/img/linkedin-white.svg') no-repeat scroll 13px 0px / 28px 45px padding-box border-box;
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease-out;
+}
+
+#linkedin-connect span {
+  box-sizing: border-box;
+  color: rgb(0, 119, 181);
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0px none rgb(0, 119, 181);
+  outline: rgb(255, 255, 255) none 0px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+#linkedin-connect:hover span {
+  color: #FFF;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+body {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700
+}
+
+.full_width {
+  width: 100%;
+}
+.box_image_size {
+  height: 150px;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url(../img/bg-masthead.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem
+}
+
+/* .swiper-wrapper {
+  display: -webkit-box;
+} */
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+.card_min_height{
+  min-height: 600px;
+}
+.text_shadow_contrast {
+  text-shadow: 0 0 3px black;
+}
+.justify_center {
+  display: flex;
+  justify-content: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+header.masthead h1 {
+  font-size: 2rem
+}
+
+@media (min-width:768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem
+  }
+  header.masthead h1 {
+    font-size: 3rem
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover
+}
+
+@media (min-width:768px) {
+  .showcase .showcase-text {
+    padding: 7rem
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0 5px 5px 0 #adb5bd
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url(/static/img/bg-masthead.jpg) no-repeat center left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem
+}
